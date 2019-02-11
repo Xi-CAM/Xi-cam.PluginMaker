@@ -141,7 +141,7 @@ class PluginMaker(QWidget, GUIPlugin):
         extra_content["app_name"] = "xicam." + plugin_name.text()
         extra_content["plugin_name"] = plugin_name.text()
         extra_content["plugin_version"] = self.plugin_generator.plugin_version.text()
-        extra_content["plugin_file_name"] = "__init__"
+        extra_content["plugin_file_name"] = "__init__.py"
         extra_content["author_name"] = self.plugin_generator.author_name.text()
         extra_content["author_email"] = self.plugin_generator.author_email.text()
         extra_content["author_url"] = self.plugin_generator.author_url.text()
