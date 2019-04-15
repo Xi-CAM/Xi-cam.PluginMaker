@@ -1,5 +1,5 @@
 [Core]
-Name = PluginMaker
+Name = xicam.PluginMaker
 Module = __init__.py
 
 [Documentation]
